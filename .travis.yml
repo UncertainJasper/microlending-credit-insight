@@ -1,0 +1,7 @@
+ language: node_js
+
+node_js:
+  - "10.9"
+
+after_success:
+- bash <(curl -s https://scripts.scantist.com/ci-travis.sh)
